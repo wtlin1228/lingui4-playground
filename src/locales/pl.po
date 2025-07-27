@@ -35,7 +35,7 @@ msgstr "Demo: bez przekazywania i18n"
 
 #: src/Demo.tsx:24
 msgid "Demo2: without passing i18n"
-msgstr ""
+msgstr "Demo2: bez przekazywania i18n"
 
 #: src/App.tsx:39
 msgid "Edit <0>src/App.tsx</0> and save to test HMR"
