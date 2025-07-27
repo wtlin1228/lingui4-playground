@@ -7,7 +7,7 @@ import { Plural, Trans } from "@lingui/macro";
 import { I18nProvider } from "@lingui/react";
 import { i18n } from "@lingui/core";
 import { loadCatalog } from "./i18n";
-import { Demo } from "./Demo";
+import { Demo, Demo2 } from "./Demo";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -55,6 +55,7 @@ function App() {
         </p>
       </div>
       <Demo />
+      <Demo2 />
     </I18nProvider>
   );
 }

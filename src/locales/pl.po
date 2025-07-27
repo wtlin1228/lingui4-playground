@@ -21,13 +21,21 @@ msgstr "{count, plural, one {# miesiąc} few {# miesiące} many {# miesięcy} ot
 msgid "Click on the Vite and React logos to learn more"
 msgstr "Kliknij na logo Vite i React, aby dowiedzieć się więcej"
 
-#: src/Demo.tsx:14
+#: src/Demo.tsx:15
 msgid "Demo: using t macro"
 msgstr "Demo: użycie makra t"
 
-#: src/Demo.tsx:15
+#: src/Demo.tsx:16
 msgid "Demo: with variable {count}"
 msgstr "Demo: ze zmienną {count}"
+
+#: src/Demo.tsx:14
+msgid "Demo: without passing i18n"
+msgstr "Demo: bez przekazywania i18n"
+
+#: src/Demo.tsx:24
+msgid "Demo2: without passing i18n"
+msgstr ""
 
 #: src/App.tsx:39
 msgid "Edit <0>src/App.tsx</0> and save to test HMR"

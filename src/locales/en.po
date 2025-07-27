@@ -15,28 +15,36 @@ msgstr ""
 
 #: src/App.tsx:27
 #~ msgid "{count, plural, one {# message} other {# messages}}"
-#~ msgstr ""
+#~ msgstr "{count, plural, one {# message} other {# messages}}"
 
 #: src/App.tsx:36
 msgid "{count, plural, one {# month} other {# months}}"
-msgstr ""
+msgstr "{count, plural, one {# month} other {# months}}"
 
 #: src/App.tsx:27
 #~ msgid "{count, plural, other {count is #}}"
-#~ msgstr ""
+#~ msgstr "{count, plural, other {count is #}}"
 
 #: src/App.tsx:54
 msgid "Click on the Vite and React logos to learn more"
-msgstr ""
-
-#: src/Demo.tsx:14
-msgid "Demo: using t macro"
-msgstr ""
+msgstr "Click on the Vite and React logos to learn more"
 
 #: src/Demo.tsx:15
+msgid "Demo: using t macro"
+msgstr "Demo: using t macro"
+
+#: src/Demo.tsx:16
 msgid "Demo: with variable {count}"
+msgstr "Demo: with variable {count}"
+
+#: src/Demo.tsx:14
+msgid "Demo: without passing i18n"
+msgstr "Demo: without passing i18n"
+
+#: src/Demo.tsx:24
+msgid "Demo2: without passing i18n"
 msgstr ""
 
 #: src/App.tsx:39
 msgid "Edit <0>src/App.tsx</0> and save to test HMR"
-msgstr ""
+msgstr "Edit <0>src/App.tsx</0> and save to test HMR"
