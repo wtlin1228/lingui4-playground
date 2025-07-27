@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "messages:extract": "lingui extract",
-    "preview": "vite preview"
+    "messages:compile": "lingui compile",
+    "preview": "vite preview",
+    "all": "yarn messages:extract && yarn messages:compile && yarn build && yarn preview"
   },
   "dependencies": {
     "@lingui/macro": "^4.1.2",

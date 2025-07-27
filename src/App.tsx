@@ -1,19 +1,20 @@
-import { useEffect, useState } from "react"
-import reactLogo from "./assets/react.svg"
-import linguiLogo from "./assets/lingui-logo.svg"
-import viteLogo from "/vite.svg"
-import "./App.css"
-import { Plural, Trans } from "@lingui/macro"
-import { I18nProvider } from "@lingui/react"
-import { i18n } from "@lingui/core"
-import { loadCatalog } from "./i18n"
+import { useEffect, useState } from "react";
+import reactLogo from "./assets/react.svg";
+import linguiLogo from "./assets/lingui-logo.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import { Plural, Trans } from "@lingui/macro";
+import { I18nProvider } from "@lingui/react";
+import { i18n } from "@lingui/core";
+import { loadCatalog } from "./i18n";
+import { Demo } from "./Demo";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   useEffect(() => {
-    loadCatalog("en")
-  }, [])
+    loadCatalog("en");
+  }, []);
 
   return (
     <I18nProvider i18n={i18n}>
@@ -53,8 +54,9 @@ function App() {
           <Trans>Click on the Vite and React logos to learn more</Trans>
         </p>
       </div>
+      <Demo />
     </I18nProvider>
-  )
+  );
 }
 
-export default App
+export default App;
