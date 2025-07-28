@@ -12,14 +12,14 @@
     "all": "yarn messages:extract && yarn messages:compile && yarn build && yarn preview"
   },
   "dependencies": {
-    "@lingui/macro": "^4.1.2",
-    "@lingui/react": "^4.1.2",
+    "@lingui/macro": "4.4.0",
+    "@lingui/react": "4.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@lingui/cli": "^4.1.2",
-    "@lingui/vite-plugin": "^4.1.2",
+    "@lingui/cli": "4.4.0",
+    "@lingui/vite-plugin": "4.4.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
